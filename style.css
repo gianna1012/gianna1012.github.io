@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Montserrat:wght@300;400&family=Roboto:wght@300;400&display=swap'); 
+
+/* UNIVERSAL SELECTOR */ 
+* {
+    margin: 0; 
+    padding: 0;
+} 
+
+body {
+    font-family: 'Montserrat', Roboto; 
+    color: black; 
+    height: 100vh; 
+    overflow: hidden;
+}   
+
+.container {
+    width: 100%; 
+    height: 100%;
+} 
+
+/* NAVBAR */ 
+.header {
+    position: fixed; 
+    top: 0; 
+    z-index: 1; 
+    width: 100%;
+}
+
+.header marquee {
+    padding: 15px 0px;
+}
+
+.navbar{
+    display: flex;  
+    width: 100%; 
+    height: 50px; 
+    background-color: rgba(0, 0, 0, 0.7);
+} 
+
+.navbar ul {
+    display: flex; 
+    list-style: none; 
+    width: 100%; 
+    justify-content: center;
+} 
+
+.navbar ul li {
+    margin: 0 1rem; 
+    padding: 1rem;
+}
+
+.navbar ul li a {
+    text-decoration: none; 
+    text-transform: uppercase; 
+    color: aquamarine;
+} 
+
+.navbar ul li a:hover {
+    color: beige; 
+} 
+/* SECTION */ 
+section {
+    width: 100%; 
+    height: 100vh; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+} 
+
+img {
+    margin: 25px 10px;
+}   
+
+
+#about p {
+    width: 50%; 
+    margin: 2rem; 
+    font-size: larger;
+} 
+
+#process p {
+    width: 50%;
+    margin: 2rem;
+    font-size: larger;
+} 
+
+#situations p { 
+    width: 50%; 
+    margin: 2rem; 
+    font-size: larger;
+} 
+
+#importance p {
+    width: 50%; 
+    margin: 2rem; 
+    font-size: larger;
+}
+
+/* SECTION COLORS */ 
+section#about {
+    background: linear-gradient(#ee9ca7,#ffdde1); 
+} 
+
+section#process {
+    background: linear-gradient(#C6FFDD,#FBD786,#f7797d);
+}  
+
+section#situations {
+    background: linear-gradient(#12c2e9,#c471ed,#f64f59); 
+    list-style: circle;
+} 
+
+section#importance {
+    background: linear-gradient(#7F7FD5,#86A8E7,#91EAE4);
+}
+
+#about span {
+    color: #e74c3c;
+} 
+
+#process span {
+    color: #e74c3c;
+}  
+
+#situations span {
+    color: #e74c3c; 
+} 
+
+#importance span {
+    color: #e74c3c;
+}
+
+section h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem; 
+    margin: 100px 0;
+} 
+
+marquee {
+    font-size: 1rem; 
+    scroll-behavior: auto; 
+    color: #e74c3c;
+}  
+
+#situations ul li { 
+    font-size: larger;
+} 
